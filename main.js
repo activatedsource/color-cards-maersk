@@ -40,7 +40,6 @@ function shuffle() {
         var location1 = Math.floor((Math.random() * cards.length));
         var location2 = Math.floor((Math.random() * cards.length));
         var tmp = cards[location1];
-
         cards[location1] = cards[location2];
         cards[location2] = tmp;
     }
